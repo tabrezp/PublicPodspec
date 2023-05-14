@@ -1,0 +1,2 @@
+# PublicPodspec
+Public podspec example

@@ -1,0 +1,11 @@
+framework module VidaLiveness {
+  umbrella header "VidaLiveness-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module VidaLiveness.Swift {
+  header "VidaLiveness-Swift.h"
+  requires objc
+}

@@ -12,6 +12,7 @@ Pod::Spec.new do |s|
 
   # s.library             = 'z', 'sqlite3', 'xml2', 'c++'
   s.static_framework    = true
-  s.dependency = 'GoogleMLKit/FaceDetection', 'DatadogSDK'
+  s.dependency 'GoogleMLKit/FaceDetection'
+  s.dependency 'DatadogSDK'
   
 end

@@ -7,8 +7,9 @@ Pod::Spec.new do |s|
   s.homepage            = 'https://github.com/tabrezp/PublicPodspec'
   s.description         = 'SDK to perform active and passive liveness. Can be used to detect presence of an actual person'
 
-  s.platform            = :ios, '11.0'
-  s.source              = { :http => 'https://iOSBuilds.s3.eu-central-003.backblazeb2.com/VidaLiveness.framework.zip' }
+  s.ios.deployment_target = '11.0'
+  s.swift_version = '5.0'
+  s.source              = { :http => 'https://f003.backblazeb2.com/file/iOSBuilds/VidaLiveness.xcframework.zip' }
   # Published binaries
   # s.vendored_frameworks = 'VidaLiveness.framework'
   # s.preserve_paths = 'VidaLiveness.framework'
@@ -16,5 +17,5 @@ Pod::Spec.new do |s|
   s.static_framework    = true
   s.dependency 'GoogleMLKit/FaceDetection'
   s.dependency 'DatadogSDK'
-  
+  s.vendored_frameworks = 'VidaLiveness.xcframework'
 end

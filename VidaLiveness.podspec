@@ -5,8 +5,7 @@ Pod::Spec.new do |s|
   s.author              = { 'tabrezp' => 'ptabrez0@gmail.com' }
   s.summary             = 'Liveness SDK from VIDA'
 
-  s.description         = <<-DESC
-                          SDK to perform active and passive liveness. Can be used to detect presence of an actual person
+  s.description         = 'SDK to perform active and passive liveness. Can be used to detect presence of an actual person'
 
   s.platform            = :ios, '12.0'
   s.source              = { :http => 'https://github.com/tabrezp/PublicPodspec/blob/main/VidaLiveness.framework.zip' }

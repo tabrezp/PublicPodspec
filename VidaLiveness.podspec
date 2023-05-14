@@ -15,7 +15,8 @@ Pod::Spec.new do |s|
   # s.preserve_paths = 'VidaLiveness.framework'
   # s.library             = 'z', 'sqlite3', 'xml2', 'c++'
   s.static_framework    = true
+  s.vendored_frameworks = 'VidaLiveness.xcframework'
+  s.preserve_paths = 'VidaLiveness.xcframework'
   s.dependency 'GoogleMLKit/FaceDetection'
   s.dependency 'DatadogSDK', '1.19.0'
-  s.vendored_frameworks = 'VidaLiveness.xcframework'
 end

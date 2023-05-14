@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.description         = 'SDK to perform active and passive liveness. Can be used to detect presence of an actual person'
 
-  s.platform            = :ios, '12.0'
+  s.platform            = :ios, '11.0'
   s.source              = { :http => 'https://github.com/tabrezp/PublicPodspec/blob/main/VidaLiveness.framework.zip' }
 
   # s.library             = 'z', 'sqlite3', 'xml2', 'c++'

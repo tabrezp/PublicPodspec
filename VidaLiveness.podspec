@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
-  s.source              = { :http => 'https://f003.backblazeb2.com/file/LivenessBuilds/VidaLiveness.xcframework.zip' }
+  s.source              = { :http => 'https://f003.backblazeb2.com/file/Builds1/VidaLiveness.xcframework.zip' }
   # s.library             = 'z', 'sqlite3', 'xml2', 'c++'
   s.static_framework    = true
   s.vendored_frameworks = 'VidaLiveness.xcframework'

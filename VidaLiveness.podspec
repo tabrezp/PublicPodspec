@@ -12,8 +12,8 @@ Pod::Spec.new do |s|
   s.source              = { :http => 'https://f003.backblazeb2.com/file/Builds1/VidaLiveness.framework.zip' }
   # s.library             = 'z', 'sqlite3', 'xml2', 'c++'
   s.static_framework    = true
-  s.vendored_frameworks = 'VidaLiveness.xcframework'
-  s.preserve_paths = 'VidaLiveness.xcframework'
+  s.vendored_frameworks = 'VidaLiveness.framework'
+  s.preserve_paths = 'VidaLiveness.framework'
   s.dependency 'GoogleMLKit/FaceDetection'
   s.dependency 'DatadogSDK', '1.19.0'
 end

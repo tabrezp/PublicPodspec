@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '11.0'
   s.swift_version = '5.0'
   s.source              = { :http => 'https://f003.backblazeb2.com/file/Builds1/VidaLiveness.framework.zip' }
-  #s.static_framework    = true
+  s.static_framework    = true
   s.vendored_frameworks = 'VidaLiveness.framework'
   s.preserve_paths = 'VidaLiveness.framework'
   s.dependency 'GoogleMLKit/FaceDetection'

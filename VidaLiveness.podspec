@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/VidaLiveness/**"' }
   s.frameworks          = 'AVFoundation', 'Foundation', 'UIKit'
   s.requires_arc        = true
-  #s.static_framework    = true
+  s.static_framework    = true
   s.vendored_frameworks = 'VidaLiveness.framework'
   s.preserve_paths      = 'VidaLiveness.framework'
   s.dependency 'GoogleMLKit/FaceDetection'

@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
                           DESC
   s.platform            = :ios, '12.0'
   s.swift_version       = '5.0'
-  s.source              = { :http => 'https://f003.backblazeb2.com/file/Builds2/VidaLiveness.framework.zip' }
+  s.source              = { :http => 'https://f003.backblazeb2.com/file/Builds3/VidaLiveness.framework.zip' }
   s.xcconfig            = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/VidaLiveness/**"' }
   s.frameworks          = 'AVFoundation', 'Foundation', 'UIKit'
   s.requires_arc        = true
